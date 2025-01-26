@@ -59,6 +59,19 @@ Frontend: http://localhost:8000
 Backend API: http://localhost:5000
 ```
 
+## Screenshots
+![image](https://github.com/user-attachments/assets/f7f6c9cc-183e-488d-a0ac-2c97e33d9c31)
+![image](https://github.com/user-attachments/assets/43475c7c-e994-4b3f-9b0e-9e2091f3a052)
+![image](https://github.com/user-attachments/assets/0d344fb4-cd15-412d-bb7a-aceaebbce6c5)
+![image](https://github.com/user-attachments/assets/5a6d4ba2-5fb0-4bdd-b556-71303d200c2a)
+![image](https://github.com/user-attachments/assets/2ad3438f-c8c0-44bf-a721-dda6c57c564c)
+![image](https://github.com/user-attachments/assets/7aab5659-7802-44ed-9e59-6df6ee81061c)
+![image](https://github.com/user-attachments/assets/e9199782-01ec-4d70-8999-6e65b920987a)
+
+## Deployment
+- https://acpdr.netlify.app/
+
+
 ## Authors
 - [@qadrqul](https://github.com/qadrqul)
 - [@qadrqul](https://github.com/qadrqul)
