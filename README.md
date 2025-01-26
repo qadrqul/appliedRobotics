@@ -70,6 +70,7 @@ Backend API: http://localhost:5000
 ![IMG_4636](https://github.com/user-attachments/assets/a18e4983-eea9-40e4-a09f-73fbc5add3d3)
 ## Deployment
 - https://acpdr.netlify.app/
+- backend is offline now
 
 
 ## Authors
