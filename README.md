@@ -67,13 +67,13 @@ Backend API: http://localhost:5000
 ![image](https://github.com/user-attachments/assets/2ad3438f-c8c0-44bf-a721-dda6c57c564c)
 ![image](https://github.com/user-attachments/assets/7aab5659-7802-44ed-9e59-6df6ee81061c)
 ![image](https://github.com/user-attachments/assets/e9199782-01ec-4d70-8999-6e65b920987a)
-
+![IMG_4636](https://github.com/user-attachments/assets/a18e4983-eea9-40e4-a09f-73fbc5add3d3)
 ## Deployment
 - https://acpdr.netlify.app/
 
 
 ## Authors
 - [@qadrqul](https://github.com/qadrqul)
-- [@qadrqul](https://github.com/qadrqul)
-- [@qadrqul](https://github.com/qadrqul)
+- [@ya903040](https://github.com/ya903040)
+- [@Ye1nurN](https://github.com/Ye1nurN)
 
