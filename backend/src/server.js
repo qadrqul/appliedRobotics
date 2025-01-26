@@ -7,6 +7,7 @@ import { HTTP_PORT } from './utils/config.js';
 import { testPgConnection } from './utils/database.js';
 import vehicleRoutes from './routes/vehicleRoutes.js';
 import logsRoutes from './routes/logsRoutes.js';
+import userRoutes from "./routes/userRoutes.js";
 
 
 dotenv.config();
@@ -20,6 +21,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use('/auth', authRoutes);
 app.use('/vehicle', vehicleRoutes);
+app.use(userRoutes);
 app.use('/admin', adminRoutes);
 app.use(logsRoutes);
 
