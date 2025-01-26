@@ -3,7 +3,7 @@ import express from 'express';
 import cors from 'cors';
 import authRoutes from './routes/authRoutes.js';
 import adminRoutes from './routes/adminRoutes.js';
-import { HTTP_PORT } from './utils/config.js';
+import {FRONT_URL, HTTP_PORT} from './utils/config.js';
 import { testPgConnection } from './utils/database.js';
 import vehicleRoutes from './routes/vehicleRoutes.js';
 import logsRoutes from './routes/logsRoutes.js';
@@ -15,7 +15,11 @@ dotenv.config();
 const app = express();
 
 
-app.use(cors());
+app.use(cors({
+    origin: FRONT_URL,
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    credentials: true,
+}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
