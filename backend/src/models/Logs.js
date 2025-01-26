@@ -15,6 +15,11 @@ const Logs = sequelize.define('Logs', {
         defaultValue: DataTypes.NOW,
         allowNull: false,
     },
+    updatedAt: {
+        type: DataTypes.DATE,
+        allowNull: false,
+        defaultValue: DataTypes.NOW,
+    },
 });
 
 export default Logs;

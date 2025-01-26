@@ -15,6 +15,7 @@ const getLogs = async (req, res) => {
         const logs = await Logs.findAll();
         res.status(200).json(logs);
     } catch (error) {
+        console.log(error);
         res.status(500).json({ error: 'Failed to retrieve logs' });
     }
 };

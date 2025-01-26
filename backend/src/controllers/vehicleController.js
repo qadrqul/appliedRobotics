@@ -1,14 +1,17 @@
 import Vehicle from '../models/vehicle.js';
 
 const createVehicle = async (req, res) => {
+    const { plateNumber, owner, status } = req.body;
+
     try {
-        const { plateNumber, owner, status, userId } = req.body;
-        const vehicle = await Vehicle.create({ plateNumber, owner, status, userId });
+        const vehicle = await Vehicle.create({ plateNumber, owner, status });
         res.status(201).json(vehicle);
     } catch (error) {
+        console.error(error);
         res.status(500).json({ error: 'Failed to create vehicle' });
     }
 };
+
 
 const getVehicles = async (req, res) => {
     try {

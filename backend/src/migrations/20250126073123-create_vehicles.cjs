@@ -22,14 +22,6 @@ module.exports = {
         allowNull: false,
         defaultValue: 'active',
       },
-      userId: {
-        type: DataTypes.INTEGER,
-        references: {
-          model: 'Users',
-          key: 'id',
-        },
-        allowNull: false,
-      },
       createdAt: {
         type: Sequelize.DATE,
         allowNull: false,

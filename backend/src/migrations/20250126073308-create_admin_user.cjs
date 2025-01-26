@@ -18,6 +18,6 @@ module.exports = {
   },
 
   down: async (queryInterface) => {
-    await queryInterface.bulkDelete('Users', { name: 'admin' }, {});
+    await queryInterface.bulkDelete('Users', { username: 'admin' }, {});
   },
 };

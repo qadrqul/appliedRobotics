@@ -20,9 +20,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use('/auth', authRoutes);
-app.use('/vehicle', vehicleRoutes);
 app.use(userRoutes);
 app.use('/admin', adminRoutes);
+app.use('/vehicle', vehicleRoutes);
 app.use(logsRoutes);
 
 app.use('*', (req, res) => {
