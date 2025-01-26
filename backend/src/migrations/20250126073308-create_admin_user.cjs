@@ -1,11 +1,12 @@
 const dotenv = require('dotenv');
 const bcrypt = require('bcrypt');
+const {ADMIN_PASSWORD} = require("../utils/config.js");
 
 dotenv.config();
 
 module.exports = {
   up: async (queryInterface) => {
-    const hashedPassword = await bcrypt.hash(process.env.ADMIN_PASSWORD, 10);
+    const hashedPassword = await bcrypt.hash(ADMIN_PASSWORD, 10);
     console.log(hashedPassword);
     await queryInterface.bulkInsert('Users', [
       {
