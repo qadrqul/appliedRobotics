@@ -1,6 +1,6 @@
 const dotenv = require('dotenv');
 const bcrypt = require('bcrypt');
-const {ADMIN_PASSWORD} = require("../utils/config.js");
+const { ADMIN_PASSWORD } = require('../utils/config.js');
 
 dotenv.config();
 
