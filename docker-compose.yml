@@ -15,6 +15,7 @@ services:
       context: ./backend
       dockerfile: Dockerfile
     container_name: backend
+    restart: unless-stopped
     env_file: .env
     network_mode: host
     command: npm start
@@ -44,3 +45,4 @@ services:
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf
     network_mode: host
+    restart: unless-stopped
