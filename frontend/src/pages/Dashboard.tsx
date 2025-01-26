@@ -83,8 +83,8 @@ export default function Dashboard() {
         </CardHeader>
         <CardContent>
           <div className="aspect-video bg-muted rounded-lg overflow-hidden">
-            <img 
-              src={`${import.meta.env.VITE_API_URL}/camera/stream`} 
+            <img
+              src={`${import.meta.env.VITE_API_URL}api/camera/stream`}
               alt="Camera feed"
               className="w-full h-full object-cover"
             />
