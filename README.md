@@ -73,6 +73,36 @@ Backend API: http://localhost:5000
 - backend is offline now
 
 
+## How to Run the Car Plate Detection
+
+### 1. Clone the Repository and go to folder `yolov7_car_plate_detection`
+```bash
+git clone <repository-url>
+cd appliedRobotics/yolov7_car_plate_detection
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+### 2. Install all requirements and dependencies:
+```bash
+pip install -r requirements.txt
+sudo apt-get install -y python3-smbus python3-dev i2c-tools
+sudo apt install tesseract-ocr
+sudo apt-get install -y i2c-tools
+pip install RPi.GPIO
+```
+
+### 3. Run the file `detect_and_crop` by command:
+
+```bash
+python detect_and_crop.py --weights {best_weights_from_folder} --conf 0.25 --img-size 640 --source 0 --device 0
+```
+`--source 0` here is your camera. You can also analyze video or photos like `--source link/to/video/or/photo`
+
+`--device 0` here you choose `cpu`=cpu or `0`=gpu
+
+if you run into a problem, you can write me in telegram by - `https://t.me/yasirovsuleiman`
+
 ## Authors
 - [@qadrqul](https://github.com/qadrqul)
 - [@ya903040](https://github.com/ya903040)
