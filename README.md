@@ -12,7 +12,7 @@ The **ACPDR** is our final project for Applied Robotics class, which automates t
  - Frontend Integration: Displays real-time data via a React + Vite frontend.
  - Database: PostgreSQL stores users, vehicles, and logs.
 
-## How to Run the Project
+## How to Run the Web-app
 
 ### 1. Clone the Repository
 
@@ -58,21 +58,6 @@ docker-compose up --build
 Frontend: http://localhost:8000
 Backend API: http://localhost:5000
 ```
-
-## Screenshots
-![image](https://github.com/user-attachments/assets/f7f6c9cc-183e-488d-a0ac-2c97e33d9c31)
-![image](https://github.com/user-attachments/assets/43475c7c-e994-4b3f-9b0e-9e2091f3a052)
-![image](https://github.com/user-attachments/assets/0d344fb4-cd15-412d-bb7a-aceaebbce6c5)
-![image](https://github.com/user-attachments/assets/5a6d4ba2-5fb0-4bdd-b556-71303d200c2a)
-![image](https://github.com/user-attachments/assets/2ad3438f-c8c0-44bf-a721-dda6c57c564c)
-![image](https://github.com/user-attachments/assets/7aab5659-7802-44ed-9e59-6df6ee81061c)
-![image](https://github.com/user-attachments/assets/e9199782-01ec-4d70-8999-6e65b920987a)
-![IMG_4636](https://github.com/user-attachments/assets/a18e4983-eea9-40e4-a09f-73fbc5add3d3)
-## Deployment
-- https://acpdr.netlify.app/
-- backend is offline now
-
-
 ## How to Run the Car Plate Detection
 
 ### 1. Clone the Repository and go to folder `yolov7_car_plate_detection`
@@ -101,7 +86,20 @@ python detect_and_crop.py --weights {best_weights_from_folder} --conf 0.25 --img
 
 `--device 0` here you choose `cpu`=cpu or `0`=gpu
 
-if you run into a problem, you can write me in telegram by - `https://t.me/yasirovsuleiman`
+## Screenshots
+![image](https://github.com/user-attachments/assets/f7f6c9cc-183e-488d-a0ac-2c97e33d9c31)
+![image](https://github.com/user-attachments/assets/43475c7c-e994-4b3f-9b0e-9e2091f3a052)
+![image](https://github.com/user-attachments/assets/0d344fb4-cd15-412d-bb7a-aceaebbce6c5)
+![image](https://github.com/user-attachments/assets/5a6d4ba2-5fb0-4bdd-b556-71303d200c2a)
+![image](https://github.com/user-attachments/assets/2ad3438f-c8c0-44bf-a721-dda6c57c564c)
+![image](https://github.com/user-attachments/assets/7aab5659-7802-44ed-9e59-6df6ee81061c)
+![image](https://github.com/user-attachments/assets/e9199782-01ec-4d70-8999-6e65b920987a)
+![IMG_4636](https://github.com/user-attachments/assets/a18e4983-eea9-40e4-a09f-73fbc5add3d3)
+
+## Deployment
+- https://acpdr.netlify.app/
+- backend is offline now
+
 
 ## Authors
 - [@qadrqul](https://github.com/qadrqul)
