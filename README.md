@@ -105,4 +105,5 @@ python detect_and_crop.py --weights {best_weights_from_folder} --conf 0.25 --img
 - [@qadrqul](https://github.com/qadrqul)
 - [@ya903040](https://github.com/ya903040)
 - [@Ye1nurN](https://github.com/Ye1nurN)
-
+  
+### If you encounter any issues, feel free to reach out to me on Telegram @qadrqul.
